@@ -1,0 +1,32 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+
+public class Main{
+    public static int numero = 6;
+
+        public static int calculadora(int numero1, int numero2){
+            int resultado;
+            resultado = numero1 + numero2;
+            return resultado;
+        }
+            
+        public static void main(String[] args) {
+            int resultadoFinal = calculadora(5, 3);
+            System.out.println("El resultado es: " + resultadoFinal);
+            
+            int a = 3;
+            int b = 5;
+            
+            int numeros = a * b;
+            
+            System.out.println(numeros);
+        }
+
+
+	
+}
